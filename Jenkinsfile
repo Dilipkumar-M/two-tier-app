@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage("Code"){
             steps{
-                git url: "https://github.com/LondheShubham153/two-tier-flask-app.git", branch: "jenkins"
+                git url: "https://github.com/Dilipkumar-M/to-do-list_2-tier-app.git", branch: "jenkins"
             }
         }
         stage("Build & Test"){
@@ -14,7 +14,7 @@ pipeline {
         }
         stage("Push to DockerHub"){
             steps{
-                withCredentials([usernamePassword(credentialsId:"dockerHub",passwordVariable:"dockerHubPass",usernameVariable:"dockerHubUser")]){
+                withCredentials([usernamePassword(credentialsId:"dilipkumar5656",passwordVariable:"Dilip@5656",usernameVariable:"dilipkumar5656")]){
                     sh "docker login -u ${env.dockerHubUser} -p ${env.dockerHubPass}"
                     sh "docker tag flaskapp ${env.dockerHubUser}/flaskapp:latest"
                     sh "docker push ${env.dockerHubUser}/flaskapp:latest" 
