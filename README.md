@@ -7,4 +7,5 @@ FRONTEND:
  
 ![k8s](https://github.com/Dilipkumar-M/two-tier-app/assets/84618503/59376c75-ec7b-414f-a312-49fcd5f8f2e5)
  Above Screen is the O/P got from the k8s with a node ip:30004
-BACKEND:
+ 
+
