@@ -9,7 +9,7 @@ FRONTEND:
  Above Screen is the O/P got from the k8s with a node ip:30004
 
  ![image](https://github.com/Dilipkumar-M/two-tier-app/assets/84618503/1902c97e-957f-4a8f-83d6-4f88de06b102)
- At the Backeend the message will be stored.
+ At the Backend the message will be stored.
  
 
 
