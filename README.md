@@ -14,14 +14,23 @@ FRONTEND:
  At the Backend the message will be stored in the backend of mysql server.
 
  ubuntu@ip-172-31-24-82:~/two-tier-app$ docker ps
+ 
 CONTAINER ID   IMAGE             COMMAND                  CREATED              STATUS              PORTS                                                  NAMES
+
 d4834a6edbe2   mysql:5.7         "docker-entrypoint.s…"   About a minute ago   Up About a minute   0.0.0.0:3306->3306/tcp, :::3306->3306/tcp, 33060/tcp   mysql
+
 e8c94d18ef9c   flaskapp:latest   "python app.py"          4 minutes ago        Up 4 minutes        0.0.0.0:5000->5000/tcp, :::5000->5000/tcp              flaskapp
+
 ubuntu@ip-172-31-24-82:~/two-tier-app$ docker exec -it d4834a6edbe2 bash
+
 bash-4.2# mysql -u root -p
+
 Enter password: 
+
 Welcome to the MySQL monitor.  Commands end with ; or \g.
+
 Your MySQL connection id is 3
+
 Server version: 5.7.44 MySQL Community Server (GPL)
 
 Copyright (c) 2000, 2023, Oracle and/or its affiliates.
