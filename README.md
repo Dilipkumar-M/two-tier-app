@@ -8,7 +8,8 @@ FRONTEND:
 ![k8s](https://github.com/Dilipkumar-M/two-tier-app/assets/84618503/59376c75-ec7b-414f-a312-49fcd5f8f2e5)
  Above Screen is the O/P got from the k8s with a node ip:30004
 
-![image](https://github.com/Dilipkumar-M/two-tier-app/assets/84618503/c1ee3823-ee4d-4ba0-a428-a19b1d0eae93)
+![image](https://github.com/Dilipkumar-M/two-tier-app/assets/84618503/fdccac40-3326-43b5-9c12-c672db02a3a1)
+
 
  At the Backend the message will be stored in the backend of mysql server.
 
