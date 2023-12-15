@@ -79,7 +79,7 @@ mysql> select * from messages;
 
 ![image](https://github.com/Dilipkumar-M/two-tier-app/assets/84618503/9e030748-3e2b-447b-93d1-71d469dd147f)
 
-Output shown in the above image is the database stored in backend entered by a user.
+Output shown in the above image is the database stored in backend entered by the user.
 
  
 
