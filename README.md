@@ -1,6 +1,6 @@
 
 ![image](https://github.com/Dilipkumar-M/two-tier-app/assets/84618503/c85219bd-0fd7-41b4-8572-99ad0d7ab6ad)
-To explain briefly about the projeect:
+To explain briefly about the project:
 
 The Frontend and Backend code pushed by the developer will be tested on CI/CD pipeline of jenkins,after testing the code the FE & BE containers will be created using docker images,docker-compose and its networks with binding the bridge to 3060 and 5000 as ports to the container and pushed the image into the dockerhub.
 
