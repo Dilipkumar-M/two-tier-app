@@ -2,7 +2,7 @@
 ![image](https://github.com/Dilipkumar-M/two-tier-app/assets/84618503/c85219bd-0fd7-41b4-8572-99ad0d7ab6ad)
 To explain briefly about the project:
 
-The Frontend and Backend code pushed by the developer will be tested on CI/CD pipeline of jenkins,after testing the code the FE & BE containers will be created using docker images,docker-compose and its networks with binding the bridge to 3060 and 5000 as ports to the container and pushed the image into the dockerhub.
+The Frontend and Backend code pushed by the developer will be tested on CI/CD pipeline of jenkins,after testing the code the FE & BE containers will be created using docker images,docker-compose and its networks with binding the bridge to 3360 and 5000 as ports to the container and pushed the image into the dockerhub.
 
 Then setup the Master & Node intances, where the final image would be pulled from the dockerhub to create again the containers for FE & BE for to-do app in k8s of master node, then write the manifestation files (.Yaml) to create the pod,service,deployment,persistent volume,persistant volume claim,service claim file.
 
